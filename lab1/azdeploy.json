@@ -7,10 +7,10 @@
         {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2018-07-01",
-            "name": "bahree",
+            "name": "stg001",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "bahree"
+                "displayName": "Lab 1 - Storage Account"
             },
             "sku": {
                 "name": "Standard_LRS"
